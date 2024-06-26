@@ -1,0 +1,45 @@
+.peoples {
+  grid-template-columns: repeat(3, 200px);
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  margin: 35px;
+  padding: 0;
+  display: grid;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 231px;
+}
+
+.avatar {
+  width: 200px;
+  height: 231px;
+}
+
+@media (width >= 500px) {
+  .peoples {
+    grid-template-columns: repeat(2, 200px);
+  }
+}
+
+@media (width >= 750px) {
+  .peoples {
+    grid-template-columns: repeat(2, 200px);
+  }
+}
+
+@media (width >= 1000px) {
+  .peoples {
+    grid-template-columns: repeat(4, 200px);
+  }
+}
+
+@media (width >= 1500px) {
+  .peoples {
+    grid-template-columns: repeat(4, 200px);
+  }
+}
+/*# sourceMappingURL=index.b1276d39.css.map */
